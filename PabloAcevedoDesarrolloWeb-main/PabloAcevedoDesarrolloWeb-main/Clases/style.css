@@ -1,0 +1,72 @@
+.personajes{
+    width: 47%;
+    float: left;
+    padding: 18px;
+    border: #fff solid 1px;
+}
+
+p{
+    font-size: large;
+}
+
+body{
+    background-color: rgb(170, 77, 77);
+}
+
+h1{
+    border: rgb(46, 167, 126) solid 10px;
+    background-color: rgb(53, 184, 140);
+    border-radius: 10px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+strong{
+    font-size: x-large;
+}
+
+h2{
+    border: rgb(206, 184, 143) solid 10px;
+    background-color: rgb(201, 182, 147);
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.imgPrincipal{
+    width: 84%;
+    border-radius: 5px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.dentro{
+    width: 58%;
+    float: left;
+}
+
+@media screen and (max-width: 400px){
+    .dentro{
+        width: 80%;
+        float: none;
+        margin-left: 10%;
+    }
+    .imgPrincipal{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .personajes{
+        width: 100%;
+    }
+    p{
+        font-size: medium;
+    }
+    h1{
+        font-size: x-large;
+    }
+    h2{
+        font-size: large;
+    }
+    strong{
+        font-size: large;
+    }
+}
